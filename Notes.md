@@ -1,0 +1,3 @@
+Cada vez que ejecutamos docker run <some_image> si la imagen no ha sido descargada anteriormente Docker descargara la imagen para despues ejecutarla. Una vez que ha sido descargada cada vez que ejecutemos la imagen, esta ya no sera descargada se utilizara la misma imagen cada vez que se genere un nuevo contendor.
+
+Si no hay procesos que se tengan que ejecutar en el contenedor Docker simplemente termina el ese contenedor. 
